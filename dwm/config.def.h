@@ -6,8 +6,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Product Sans:size=13" };
-static const char dmenufont[]       = "Product Sans:size=13";
+static const char *fonts[]          = { "ProductSansNerdFont-Regular:size=13" };
+static const char dmenufont[]       = "ProductSansNerdFont-Regular:size=13";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -18,15 +18,18 @@ static const char col_red[]         = "#ff0000";
 static const char col_yellow[]      = "#ffff00";
 static const char col_white[]       = "#ffffff";
 static const char col_tokyored[]    = "#f7768e";
+static const char col_green_spoty[] = "#1dd05d";
+
 
 
 static const char *colors[][3]      = {
 	/*					         fg         bg          border   */
-	[NadaNorm]   =	 { col_gray3, col_gray1,  col_gray2 },
-	[SchemeSel]    =	 { col_gray4, col_cyan,   col_cyan },
-	[SchemeWarn]   =	 { col_black, col_yellow, col_red },
-	[SchemeUrgent] =	 { col_white, col_red,    col_red },
+	[NadaNorm]       =	 { col_gray3, col_gray1,  col_gray2 },
+	[SchemeSel]      =	 { col_gray4, col_cyan,   col_cyan },
+	[SchemeWarn]     =	 { col_black, col_yellow, col_red },
+	[SchemeUrgent]   =	 { col_white, col_red,    col_red },
 	[redhighlight]   =	 { col_tokyored, col_gray1,  col_gray2 },
+	[greenhighlight] =	 { col_green_spoty, col_gray1,  col_gray2 },
 };
 
 /* tagging */
