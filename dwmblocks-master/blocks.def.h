@@ -7,7 +7,8 @@ static const Block blocks[] = {
 	{"", "network_manager.sh",			  30,           0},
 	{"", "get_pulse_volume.sh",   		   0,          11},
 	{"", "calendar.sh",       			  60,           0},
-	{"", "docs_git_changes.sh",       	  30,           0},
+	{"", "docs_git_check.sh",       	  30,          12},
+	{"", "todo_git_check.sh",       	  30,          13},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
