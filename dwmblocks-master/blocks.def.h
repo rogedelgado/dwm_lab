@@ -6,7 +6,8 @@ static const Block blocks[] = {
 	{"", "spotify_status.sh",	          15,          10},
 	{"", "network_manager.sh",			  30,           0},
 	{"", "get_pulse_volume.sh",   		   0,          11},
-	{"", "calendar.sh",       			  60,           0},
+	{"", "calendar.sh",         		  60,          14},
+	{"", "date.sh",          			  60,           0},
 	{"", "docs_git_check.sh",       	  30,          12},
 	{"", "todo_git_check.sh",       	  30,          13},
 };
