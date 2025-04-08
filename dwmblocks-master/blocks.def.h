@@ -4,6 +4,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "spotify_status.sh",	          15,          10},
+	{"", "connected_headset.sh",          15,          20},
 	{"", "network_manager.sh",			  30,           0},
 	{"", "get_pulse_volume.sh",   		   0,          11},
 	{"", "calendar.sh",         		  60,          14},
